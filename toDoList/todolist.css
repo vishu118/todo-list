@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "poppins";
+    height: 35%;
+    min-width: 340px;
+    top: 40px;
+    padding: 50px;
+    border-radius: 8;
+    background-color: #efe1de;
+}
+
+
+.heading{
+    text-align: center;
+    width: 100%;
+    height: 100px; ;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(109, 199, 234);
+
+}
+
+
+.whattodo{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(231, 157, 138);
+     margin-bottom:10px ;
+    font-size: 20px;
+}
+
+.Tasks{
+    font-size: 20px;
+    width: 100%;
+    height: 100px; ;
+    padding-top: 10px;
+    
+    font-size: 30px;
+    color: black;
+   
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    align-items: center;
+    margin: 40px;
+}
+
+.submitbutton{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(234, 180, 162);
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+.submit{
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block
+
+}
+
+
+.edit{
+      border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size:  15px;
+
+}
+
+.item{
+    display: flex;
+    border: 2px solid black; 
+    align-items: center;
+    width: 800px;
+    height: 50px;
+    font-size: 30px;
+    
+}
+
+
+    
+    .delete{
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size:  15px;
+     
+    }
